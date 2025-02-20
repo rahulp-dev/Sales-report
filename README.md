@@ -40,6 +40,7 @@ This Senior Rails Developer Assessment is designed to evaluate your technical ma
      - Report generation and email delivery.
      - Handling large datasets efficiently.
      - Edge cases such as date ranges with no sales.
+   - E2E tests are not required but you can do so. State your reason for having them. 
 
 4. **Performance Expectations**
    - Demonstrate effective queries to optimize data fetching.
