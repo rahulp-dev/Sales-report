@@ -21,8 +21,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background: linear-gradient(135deg, #667eea, #764ba2);
   color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* Typography */
@@ -76,11 +80,13 @@ blockquote {
 
 /* Container */
 .container {
-  width: 80%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  color: white;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -123,3 +129,28 @@ input[type="submit"]:hover {
   background-color: #218838;
 }
 
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
